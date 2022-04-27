@@ -1,0 +1,140 @@
+[{
+  "_id": "XXXTEST020",
+  "dataClasses": {
+    "medications": [
+      {
+        "recordType": "HEALTH_MEDICATION",
+        "medication": {
+          "ihrLaymanTerm": "MetFORMIN Hydrochloride ER Oral Tablet Extended Release 24 Hour 500 mg",
+          "ihrTerm": "Metformin HCl ER Oral Tablet Extended Release 24 Hour 500 MG",
+          "sourceVocabulary": "NDC Foreign Key",
+          "sourceVocabularyCode": "49483062309",
+          "fdbCode": "QLR3107",
+          "fdbCodeType": "First Databank (FDB) Medication Code",
+          "mediSpanCode": "QLR234",
+          "rxNormCode": "QLR307"
+        },
+        "genericFlag": true,
+        "sensitivityClasses": [
+          "Brain Disorder"
+        ],
+        "objectId": 125,
+        "drugClass": [
+          "Antidiabetic - Biguanide"
+        ],
+        "supplier": {
+          "name": "Walgreens #1092",
+          "npinum": "1669498515"
+        },
+        "orderingProvider": {
+          "orderingProviderName": "Schaffer, Anna",
+          "orderingProviderNPInum": "1063935377"
+        },
+        "icueSeqId": "IC1234",
+        "informerObject": {
+          "ihrTerm": "Ordering Provider",
+          "ihrLaymanTerm": "Ordering Provider",
+          "sourceVocabulary": "Hl7v3 Role Code - OID 2.16.840.1.113883.5.111 Foreign Key",
+          "sourceVocabularyCode": "Prescriber"
+        },
+        "medicationStartDate": "2017/03/13",
+        "clinicallyRelevantDate": "2019-09-22T00:00:00Z",
+        "medicationStatus": {
+          "ihrTerm": "active",
+          "ihrLaymanTerm": "active",
+          "sourceVocabulary": "active",
+          "sourceVocabularyCode": "active"
+        },
+        "daysSupply": 90,
+        "dosageQuantity": {
+          "$numberDecimal": "1"
+        },
+        "doseQuantityUnit": {
+          "ihrTerm": "mg",
+          "ihrLaymanTerm": "mg",
+          "sourceVocabulary": "12345",
+          "sourceVocabularyCode": "http://some-system-url.com"
+        },
+        "dosageFrequency": null,
+        "doseFrequency": {
+          "ihrTerm": null,
+          "ihrLaymanTerm": null,
+          "sourceVocabulary": null,
+          "sourceVocabularyCode": null
+        },
+        "dosageForm": {
+          "ihrTerm": "capsule drug dosage form",
+          "ihrLaymanTerm": "capsule drug dosage form",
+          "sourceVocabulary": "FDA Dosage Form Foreign Key",
+          "sourceVocabularyCode": "C25158"
+        },
+        "dosageRoute": {
+          "ihrTerm": null,
+          "ihrLaymanTerm": null,
+          "sourceVocabulary": null,
+          "sourceVocabularyCode": null
+        },
+        "medicationReason": [],
+        "lastFillDate": "2019/09/22",
+        "expectedFillDate": "2019/12/21",
+        "icueLastUpdateDate": null,
+        "refillAuthorizedNumber": 11,
+        "adminInstructions": null,
+        "lastUpdateDate": "2020-11-30T22:52:36Z",
+        "dispensedQuantity": 90,
+        "dispensedQuantityUnit": {
+          "ihrTerm": "Tablet",
+          "ihrLaymanTerm": "Tablet",
+          "ihrId": "UOM128",
+          "sourceVocabulary": "HL7v2 Units - Table 0574 - Foreign Key",
+          "sourceVocabularyCode": "caplet"
+        },
+        "orderDate": "2019-01-07T00:00:00Z",
+        "firstDoseDate": null,
+        "endDate": null,
+        "holdDate": null,
+        "restartedDate": null,
+        "takenAsOrdered": null,
+        "adherenceStopdate": null,
+        "refillCount": 3,
+        "prescriptionId": [
+          "000224064984",
+          "000000443715",
+          "000169916360"
+        ],
+        "medicationReviewDate": null,
+        "medicationReviewLastActivityDate": null,
+        "medicationReviewLastUpdateDate": null,
+        "reviewedBy": {
+          "name": null,
+          "employeeId": null
+        },
+        "reviewerIhrActorIdentifier": null,
+        "informer": null,
+        "recordKey": "o*}Dci.-4hh8)ozh9DqkDN%N@EjP.xoJ0P2h8Y(h",
+        "presenceStateTerm": "Past Occurrence",
+        "deaSchedule": "Non-Controlled Substance",
+        "genericDrugName": "METFORMIN HCL TAB ER 24HR 500 MG",
+        "relatedCareTeam": [
+          16
+        ],
+        "relatedConditions": [],
+        "relatedDevices": [],
+        "relatedServiceProviders": [
+          2
+        ],
+        "dataSource": [
+          "System Interface Data Acquisition Method"
+        ],
+        "referenceIds": [],
+        "note": [],
+        "productType": "productTypeExample",
+        "classType": "classTypeExample",
+        "regAuthority": "ACT624",
+        "requestStatus": "active",
+        "requestIntent": "proposal",
+        "dispenseStatus": "preparation"
+      }
+    ]
+  }
+}]
